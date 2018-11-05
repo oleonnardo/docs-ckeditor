@@ -322,11 +322,4 @@ class Ckeditor {
         echo html_entity_decode($html);
     }
 
-    private function  dump($var){
-        echo '<pre>';
-        var_dump($var);
-        echo '</pre>';
-    }
-
-
 }
